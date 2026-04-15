@@ -1,0 +1,42 @@
+# ========================
+# Power BI Files
+# ========================
+# Temporary Power BI files
+*.pbix.tmp
+*.pbit.tmp
+~$*.pbix
+
+# ========================
+# OS Generated Files
+# ========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ========================
+# IDE / Editor Files
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# Temp & Log Files
+# ========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ========================
+# Python (if any scripts)
+# ========================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
