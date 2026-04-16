@@ -21,4 +21,4 @@ A professional log of the development process, milestones, and challenges encoun
 - **Current Challenge - Timestamp Mismatch**: 
     - *Observation*: Patient cards appeared blank when filtered by the new date slicers.
     - *Root Cause Analysis*: Discovered that the `Patient Admission Date` in the raw data contains precise timestamps, while the `Date Table` entries are fixed at midnight (00:00:00), causing a join failure.
-- **Next Steps**: Implementing data transformation to normalize the `Patient Admission Date` to a date-only format (removing timestamps) to ensure accurate relationship mapping.
+- **Next Steps**: Implementing data transformation to normalize the `Patient Admission Date` to a date-only format (removing timestamps) and creating a new calculated column to ensure accurate relationship mapping.
