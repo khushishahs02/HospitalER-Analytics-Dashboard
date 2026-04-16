@@ -7,15 +7,15 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a **Hospital Emergency Room (ER) Analysis Dashboard** that I am building using **Microsoft Power BI**. The goal is to transform raw ER operational data into a powerful, interactive visual analytics solution that helps hospital administrators, department heads, and healthcare decision-makers **track, analyze, and optimize** emergency room performance.
 
-Emergency rooms are the frontline of any hospital — they operate under immense pressure with unpredictable patient volumes, critical wait times, and the constant need to balance quality of care with operational efficiency. This dashboard is designed to bring **clarity to that chaos** by surfacing key performance indicators (KPIs) and trends that drive smarter, data-driven decisions.
+Emergency rooms are the frontline of any hospital, they operate under immense pressure with unpredictable patient volumes, critical wait times, and the constant need to balance quality of care with operational efficiency. This dashboard is designed to bring **clarity to that chaos** by surfacing key performance indicators (KPIs) and trends that drive smarter, data-driven decisions.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Hospital emergency departments face several recurring operational challenges:
 
@@ -25,13 +25,13 @@ Hospital emergency departments face several recurring operational challenges:
 - **Unbalanced departmental referrals** lead to bottlenecks in specific departments while others remain underutilized.
 - **Lack of demographic and temporal analysis** prevents targeted interventions for specific patient groups or time periods.
 
-Without a centralized analytics solution, hospital management relies on fragmented reports and gut instinct — leading to reactive rather than proactive decision-making.
+Without a centralized analytics solution, hospital management relies on fragmented reports and gut instinct leading to reactive rather than proactive decision-making.
 
 **This dashboard solves that.**
 
 ---
 
-## 💡 Objective
+## Objective
 
 To design and develop an interactive, multi-page Power BI dashboard that enables stakeholders to:
 
@@ -43,7 +43,7 @@ To design and develop an interactive, multi-page Power BI dashboard that enables
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 The dashboard tracks and visualizes the following core KPIs:
 
