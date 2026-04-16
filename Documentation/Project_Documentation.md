@@ -121,15 +121,21 @@ Instead of reacting to crises after they happen, the dashboard puts **trends and
 
 ```
 hospital-er-dashboard/
-│
-├── Data/                    # Raw and cleaned datasets
-├── Documentation/           # Project documentation and terminology reference
-│   ├── Project_Documentation.md   # This file
-│   └── Terminology.pdf            # Medical & ER terminology reference
-├── Dashboard/               # Power BI (.pbix) files (to be added)
-├── Screenshots/             # Dashboard preview images (to be added)
+├── Assets/                  # Images, icons, and schema diagrams
+├── Dashboard/               # Power BI report files (.pbix)
+├── Data/                    # Source data
+│   ├── Raw/                 # Original, untouched data files
+│   └── Cleaned/             # Processed data (currently moved to Raw for modeling)
+├── Documentation/           # Project logs and references
+│   ├── Project_Documentation.md
+│   ├── PROJECT_TIMELINE.md  # Detailed project progress summary
+│   └── Terminology.pdf
+├── Scripts/                 # Code and calculation scripts
+│   ├── DAX/                 # Power BI measures and table expressions
+│   └── PowerQuery/          # M scripts for data transformation
 ├── .gitignore
-└── README.md
+├── README.md
+└── LICENSE, etc.
 ```
 
 ---
