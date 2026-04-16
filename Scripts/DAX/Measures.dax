@@ -1,0 +1,8 @@
+// Date Table Creation
+Date Table = CALENDAR(MIN('Hospital ER_Data'[Patient Admission Date]), MAX('Hospital ER_Data'[Patient Admission Date]))
+
+// New Columns for Date Table
+Month Name = FORMAT('Date Table'[Date], "MMM")
+Year = YEAR('Date Table'[Date])
+
+// Note: Ensure a relationship is established between 'Hospital ER_Data'[Patient Admission Date] and 'Date Table'[Date].
