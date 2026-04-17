@@ -5,4 +5,21 @@ Date Table = CALENDAR(MIN('Hospital ER_Data'[Patient Admission Date]), MAX('Hosp
 Month Name = FORMAT('Date Table'[Date], "MMM")
 Year = YEAR('Date Table'[Date])
 
-// Note: Ensure a relationship is established between 'Hospital ER_Data'[Patient Admission Date] and 'Date Table'[Date].
+// --- Calculated Columns to Fix Joins ---
+
+// Create a date-only column in the main 'Hospital ER_Data' table 
+// to ensure a correct relationship with the 'Date Table'[Date] field.
+Admission Date (Date Only) = INT('Hospital ER_Data'[Patient Admission Date])
+
+// --- KPI Measures ---
+
+// Total Patients (Calculated value for metrics)
+Total Patients = COUNTROWS('Hospital ER_Data')
+
+// Total Patients (Formatted for display, e.g., "9217" instead of "9K")
+Total Patients Display = FORMAT([Total Patients], "#,##0")
+
+// Average Wait Time
+Average Wait Time = AVERAGE('Hospital ER_Data'[Wait Time])
+
+// Note: Ensure the relationship is established between 'Hospital ER_Data'[Admission Date (Date Only)] and 'Date Table'[Date].
