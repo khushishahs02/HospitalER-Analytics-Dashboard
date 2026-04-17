@@ -142,10 +142,10 @@ hospital-er-dashboard/
 
 ## 🚀 What's Next
 
-- [ ] Complete data cleaning and transformation in Power Query
-- [ ] Build DAX measures for all 4 KPIs
-- [ ] Design and develop all 4 dashboard pages
-- [ ] Add interactivity (slicers, drill-throughs, cross-filtering)
+- [x] Complete data cleaning and transformation in Power Query
+- [x] Build DAX measures for all 4 KPIs
+- [/] Design and develop all 4 dashboard pages (Page 1 complete)
+- [x] Add interactivity (slicers, drill-throughs, cross-filtering)
 - [ ] Capture dashboard previews and add them to the documentation
 - [ ] Final review and publish
 
