@@ -18,7 +18,19 @@ A professional log of the development process, milestones, and challenges encoun
 
 ## Phase 3: Dashboard Development & Troubleshooting
 - **Layout Design**: Commenced work on the 'Monthly Overview' page, establishing the visual hierarchy with basic shapes and key patient metric cards.
-- **Current Challenge - Timestamp Mismatch**: 
-    - *Observation*: Patient cards appeared blank when filtered by the new date slicers.
-    - *Root Cause Analysis*: Discovered that the `Patient Admission Date` in the raw data contains precise timestamps, while the `Date Table` entries are fixed at midnight (00:00:00), causing a join failure.
-- **Next Steps**: Implementing data transformation to normalize the `Patient Admission Date` to a date-only format (removing timestamps) and creating a new calculated column to ensure accurate relationship mapping.
+- **Timestamp Mismatch Resolution**: 
+    - *Action*: Normalized the `Patient Admission Date` in the ER table by creating a new `Admission Date (Date Only)` column (removing precise timestamps).
+    - *Result*: Successfully established the relationship with the `Date Table`, enabling accurate filtering across all visuals.
+- **KPI Visual Development**:
+    - **Patient Volume**: Added a primary metric card for "Total Patients" with an area chart visualizing daily spikes.
+    - **Display Optimization**: Implemented a specialized display measure to ensure total counts (e.g., 9217) are shown clearly without scientific abbreviations like "9K".
+    - **Average Wait Time**: Integrated the secondary KPI card for "Average Wait Time," mirroring the design of the patient volume card for consistency.
+- **Interactivity & UI**:
+    - Formatted and implemented slicers for Month and Year.
+    - Implemented layout containers (white rectangles) to group metrics and improve the dashboard's visual flow.
+
+## Phase 4: Continued Development (Next Steps)
+- Proceed with the 'Patient Demographics' page.
+- Expand time-intelligence analysis for peak hour identification.
+ changed one of them to average wait time so i have new visual same as patient but referring t the wait time of the patients
+
