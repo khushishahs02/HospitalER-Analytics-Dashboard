@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Business requirements and KPI definitions
 - Medical terminology reference (`Documentation/Terminology.pdf`)
 - Professional README with badges and project overview
+- **KPI Expansion**: Added measures for 'Average Satisfaction Score' and 'Total Referrals'
 
 ### Planned
 - Raw dataset ingestion
