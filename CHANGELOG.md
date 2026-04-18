@@ -15,6 +15,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Medical terminology reference (`Documentation/Terminology.pdf`)
 - Professional README with badges and project overview
 - **KPI Expansion**: Added measures for 'Average Satisfaction Score' and 'Total Referrals'
+- **Dashboard Development**: Finished the 'Monthly Overview' page with interactive slicers and KPI sparklines
+- **Visual Analytics**: Implemented Matrix and Bar charts for admission analysis
 
 ### Planned
 - Raw dataset ingestion
