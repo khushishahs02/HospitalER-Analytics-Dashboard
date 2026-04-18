@@ -22,4 +22,15 @@ Total Patients Display = FORMAT([Total Patients], "#,##0")
 // Average Wait Time
 Average Wait Time = AVERAGE('Hospital ER_Data'[Wait Time])
 
+// Average Satisfaction Score
+Average Satisfaction Score = AVERAGE('Hospital ER_Data'[Patient satisfaction score])
+
+// Total Referrals
+Total Referrals = COUNT('Hospital ER_Data'[Department Referral])
+
+// --- New Calculated Columns ---
+
+// Admission Status (IF admission flag is true then "Admitted" else "Not Admitted")
+Admission Status = IF('Hospital ER_Data'[Admission Flag] = TRUE(), "Admitted", "Not Admitted")
+
 // Note: Ensure the relationship is established between 'Hospital ER_Data'[Admission Date (Date Only)] and 'Date Table'[Date].
