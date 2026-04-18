@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - **KPI Expansion**: Added measures for 'Average Satisfaction Score' and 'Total Referrals'
 - **Dashboard Development**: Finished the 'Monthly Overview' page with interactive slicers and KPI sparklines
 - **Visual Analytics**: Implemented Matrix and Bar charts for admission analysis
+- **Data Engineering**: Created 'Admission Status' calculated column (DAX) for severity analysis
 
 ### Planned
 - Raw dataset ingestion
