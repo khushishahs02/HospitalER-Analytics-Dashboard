@@ -32,5 +32,19 @@ A professional log of the development process, milestones, and challenges encoun
 ## Phase 4: Continued Development (Next Steps)
 - Proceed with the 'Patient Demographics' page.
 - Expand time-intelligence analysis for peak hour identification.
- changed one of them to average wait time so i have new visual same as patient but referring t the wait time of the patients
+ changed one of them to average wait time so i have new visual same as patient but referring to the wait time of the patients
+
+ to antigravity - do not make phases just make pahse only when i change the dashboard currently i am only working on dashboard paage 1 of monyhly view.
+
+ now just like patient number, i added avg patient satisfaction score and no of patients referrred, so i have to make another measure for it.
+
+not matrix for no, of patients admitted and non admiitedd
+
+makde a new column using if , it admission flag is true then Admiited else Not Admiited
+
+now i have to make a visual for it,so i will use a matrix chart and a bar chart
+
+- next i will add patient age group column using switch statement
+-
+
 
