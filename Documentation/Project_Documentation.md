@@ -67,6 +67,11 @@ The dashboard tracks and visualizes the following core KPIs:
 - Tracked using an **area sparkline** to spot daily trends and departments with consistently high referral rates.
 - **Insight:** Identifies departments under disproportionate load, enabling targeted resource reallocation and capacity planning.
 
+### 5. Admission Status
+- Categorizes patients into **Admitted** vs. **Not Admitted** based on the admission flag.
+- Visualized using both **Matrix and Bar charts** to analyze the volume of hospital admissions originating from the ER.
+- **Insight:** Critical for bed management and understanding the severity of patient cases handled by the ER.
+
 ---
 
 ## 📑 Dashboard Structure (4 Pages)
@@ -143,8 +148,11 @@ hospital-er-dashboard/
 ## 🚀 What's Next
 
 - [x] Complete data cleaning and transformation in Power Query
-- [x] Build DAX measures for all 4 KPIs
-- [/] Design and develop all 4 dashboard pages (Page 1 complete)
+- [x] Build DAX measures for all core KPIs
+- [x] Design and develop Monthly Overview page (Page 1)
+- [ ] Design Patient Demographics page (Page 2)
+- [ ] Design Time & Referral Analysis page (Page 3)
+- [ ] Design Satisfaction & Performance page (Page 4)
 - [x] Add interactivity (slicers, drill-throughs, cross-filtering)
 - [ ] Capture dashboard previews and add them to the documentation
 - [ ] Final review and publish
