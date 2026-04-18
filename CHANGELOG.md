@@ -20,13 +20,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - **Data Engineering**: Created 'Admission Status' calculated column (DAX) for severity analysis
 
 ### Planned
-- Raw dataset ingestion
-- Data cleaning and transformation scripts
-- DAX measures for all 4 KPIs
-- Dashboard Page 1: Monthly Overview
-- Dashboard Page 2: Patient Demographics
-- Dashboard Page 3: Time & Referral Analysis
-- Dashboard Page 4: Satisfaction & Performance
+- Page 2: Patient Demographics Development
+- Page 3: Time & Referral Analysis Development
+- Page 4: Satisfaction & Performance Development
+- **Feature Engineering**: Implement 'Patient Age Group' segmentation using `SWITCH` DAX logic
+- **Insight Generation**: Peak hour identification and temporal analysis
 
 ---
 
