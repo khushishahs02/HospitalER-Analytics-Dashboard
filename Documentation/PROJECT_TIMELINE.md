@@ -25,26 +25,19 @@ A professional log of the development process, milestones, and challenges encoun
     - **Patient Volume**: Added a primary metric card for "Total Patients" with an area chart visualizing daily spikes.
     - **Display Optimization**: Implemented a specialized display measure to ensure total counts (e.g., 9217) are shown clearly without scientific abbreviations like "9K".
     - **Average Wait Time**: Integrated the secondary KPI card for "Average Wait Time," mirroring the design of the patient volume card for consistency.
+- **Expanded KPI Portfolio**:
+    - **Average Satisfaction**: Developed a new measure to track the daily average patient satisfaction score.
+    - **Referral Volume**: Implemented a measure to count the total number of patients referred to other departments.
+- **Data Enrichment (DAX)**:
+    - **Admission Status Flag**: Created a calculated column (`Admission Status`) using logic: IF admission flag is true then "Admitted" else "Not Admitted".
+- **Visual Analytics Expansion**:
+    - Integrated a Matrix Chart and Bar Chart to visualize the distribution of Admitted vs. Not Admitted patients.
 - **Interactivity & UI**:
     - Formatted and implemented slicers for Month and Year.
     - Implemented layout containers (white rectangles) to group metrics and improve the dashboard's visual flow.
 
-## Phase 4: Continued Development (Next Steps)
-- Proceed with the 'Patient Demographics' page.
-- Expand time-intelligence analysis for peak hour identification.
- changed one of them to average wait time so i have new visual same as patient but referring to the wait time of the patients
-
- to antigravity - do not make phases just make pahse only when i change the dashboard currently i am only working on dashboard paage 1 of monyhly view.
-
- now just like patient number, i added avg patient satisfaction score and no of patients referrred, so i have to make another measure for it.
-
-not matrix for no, of patients admitted and non admiitedd
-
-makde a new column using if , it admission flag is true then Admiited else Not Admiited
-
-now i have to make a visual for it,so i will use a matrix chart and a bar chart
-
-- next i will add patient age group column using switch statement
--
-
-
+## Phase 4: Ongoing Development
+- Finalizing the 'Monthly Overview' page with the newly added metrics.
+- Commencing work on the 'Patient Demographics' page.
+- Expanding time-intelligence analysis for peak hour identification.
+- Proposed: `Patient Age Group` column using `SWITCH` logic for demographic segmentation.
