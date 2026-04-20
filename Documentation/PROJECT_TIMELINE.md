@@ -41,3 +41,12 @@ A professional log of the development process, milestones, and challenges encoun
 - Commencing work on the 'Patient Demographics' page.
 - Expanding time-intelligence analysis for peak hour identification.
 - Proposed: `Patient Age Group` column using `SWITCH` logic for demographic segmentation.
+
+
+now i added the patient referall bar chart.
+made a new column for patient waittime status, i have chosen the threashhold as 30 mins, if the patient wait time is less than 30 mins then it is "Target Achieved" and if it is greater than 30 mins then it is "Target Missed".in report i made a donut chart for it.
+
+made a donut hcart for patient gender distibution
+
+made a bar chart for distribution of race wise patients
+
