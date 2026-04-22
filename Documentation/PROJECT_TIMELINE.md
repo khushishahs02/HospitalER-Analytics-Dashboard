@@ -36,17 +36,20 @@ A professional log of the development process, milestones, and challenges encoun
     - Formatted and implemented slicers for Month and Year.
     - Implemented layout containers (white rectangles) to group metrics and improve the dashboard's visual flow.
 
+- **Advanced Visualization & Metrics**:
+    - **Patient Referral Analysis**: Integrated a bar chart to visualize the distribution of patient referrals across different departments.
+    - **Wait Time Performance**: 
+        - **Feature Engineering**: Created a new calculated column `Wait Time Status` with a 30-minute performance threshold (Trigger: <30 min = "Target Achieved", >30 min = "Target Missed").
+        - **Visual Representation**: Implemented a Donut Chart to track the percentage of patients meeting the wait time target.
+    - **Demographic Insights**:
+        - **Gender Distribution**: Added a Donut Chart visualizing the gender breakdown of the patient population.
+        - **Racial Demographics**: Integrated a Bar Chart to analyze the distribution of patients by race.
+- **UI/UX Polishing**:
+    - Refined the layout and formatting of the 'Monthly Overview' page.
+    - Optimized color palettes for consistent demographic visualization.
+
 ## Phase 4: Ongoing Development
-- Finalizing the 'Monthly Overview' page with the newly added metrics.
-- Commencing work on the 'Patient Demographics' page.
+- Finalizing the 'Monthly Overview' and 'Patient Demographics' pages.
 - Expanding time-intelligence analysis for peak hour identification.
 - Proposed: `Patient Age Group` column using `SWITCH` logic for demographic segmentation.
-
-
-now i added the patient referall bar chart.
-made a new column for patient waittime status, i have chosen the threashhold as 30 mins, if the patient wait time is less than 30 mins then it is "Target Achieved" and if it is greater than 30 mins then it is "Target Missed".in report i made a donut chart for it.
-
-made a donut hcart for patient gender distibution
-
-made a bar chart for distribution of race wise patients
 
