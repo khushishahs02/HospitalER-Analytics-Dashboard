@@ -72,6 +72,11 @@ The dashboard tracks and visualizes the following core KPIs:
 - Visualized using both **Matrix and Bar charts** to analyze the volume of hospital admissions originating from the ER.
 - **Insight:** Critical for bed management and understanding the severity of patient cases handled by the ER.
 
+### 6. Wait Time Status
+- Categorizes patients into **Target Achieved** (< 30 min) vs. **Target Missed** (> 30 min) based on their wait time.
+- Visualized using a **Donut Chart** to show the proportion of cases meeting clinical wait time standards.
+- **Insight:** Provides a clear, high-level view of hospital responsiveness and operational efficiency against set targets.
+
 ---
 
 ## 📑 Dashboard Structure (4 Pages)
@@ -150,7 +155,7 @@ hospital-er-dashboard/
 - [x] Complete data cleaning and transformation in Power Query
 - [x] Build DAX measures for all core KPIs
 - [x] Design and develop Monthly Overview page (Page 1)
-- [ ] Design Patient Demographics page (Page 2)
+- [x] Design Patient Demographics page (Page 2)
 - [ ] Design Time & Referral Analysis page (Page 3)
 - [ ] Design Satisfaction & Performance page (Page 4)
 - [x] Add interactivity (slicers, drill-throughs, cross-filtering)
