@@ -6,7 +6,7 @@
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 [![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)]()
-[![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
 
 </div>
 
@@ -140,19 +140,17 @@ hospital-er-dashboard/
 
 > *Dashboard previews will be added here as each page is completed.*
 
-<!-- 
 ### Page 1: Monthly Overview
-![Monthly Overview](Screenshots/page1_monthly_overview.png)
+![Monthly Overview](Screenshots/Dashboard_Page_01.png)
 
 ### Page 2: Patient Demographics
-![Patient Demographics](Screenshots/page2_demographics.png)
+![Patient Demographics](Screenshots/Dashboard_Page_02.png)
 
 ### Page 3: Time & Referral Analysis
-![Time & Referral](Screenshots/page3_time_referral.png)
+![Time & Referral](Screenshots/Dashboard_Page_03.png)
 
 ### Page 4: Satisfaction & Performance
-![Satisfaction](Screenshots/page4_satisfaction.png)
--->
+![Satisfaction](Screenshots/Dashboard_Page_04.png)
 
 ---
 
