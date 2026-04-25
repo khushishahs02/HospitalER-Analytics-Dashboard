@@ -150,6 +150,7 @@ hospital-er-dashboard/
 
 ### Page 3: Time & Referral Analysis
 ![Time & Referral](Screenshots/Dashboard_Page_03.png)
+*Detailed analysis of patient wait time patterns by hour and day, coupled with departmental referral tracking for load balancing.*
 
 ### Page 4: Satisfaction & Performance
 ![Satisfaction](Screenshots/Dashboard_Page_04.png)
