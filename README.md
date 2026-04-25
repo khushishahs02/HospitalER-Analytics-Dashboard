@@ -142,6 +142,7 @@ hospital-er-dashboard/
 
 ### Page 1: Monthly Overview
 ![Monthly Overview](Screenshots/Dashboard_Page_01.png)
+*Detailed View of high-level KPIs (Total Patients, Average Wait Time, Satisfaction Score) with monthly trend analysis and interactive year/month slicers.*
 
 ### Page 2: Patient Demographics
 ![Patient Demographics](Screenshots/Dashboard_Page_02.png)
