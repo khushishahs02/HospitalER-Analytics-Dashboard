@@ -154,6 +154,7 @@ hospital-er-dashboard/
 
 ### Page 4: Satisfaction & Performance
 ![Satisfaction](Screenshots/Dashboard_Page_04.png)
+*A deep dive into patient satisfaction benchmarks and key takeaways, correlating satisfaction levels with wait times and operational performance.*
 
 ---
 
