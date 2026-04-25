@@ -146,6 +146,7 @@ hospital-er-dashboard/
 
 ### Page 2: Patient Demographics
 ![Patient Demographics](Screenshots/Dashboard_Page_02.png)
+*Insightful breakdown of patient demographics by age group, gender, and race, enabling targeted healthcare service improvements.*
 
 ### Page 3: Time & Referral Analysis
 ![Time & Referral](Screenshots/Dashboard_Page_03.png)
