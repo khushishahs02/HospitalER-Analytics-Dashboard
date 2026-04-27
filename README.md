@@ -30,9 +30,7 @@
 
 ## 🔍 About the Project
 
-This project presents an **interactive, multi-page Power BI dashboard** built to analyze and optimize Hospital Emergency Room operations. It transforms raw ER data into actionable insights — enabling hospital administrators to make **data-driven decisions** around patient flow, wait times, staff allocation, and quality of care.
-
-> Built as an end-to-end data analytics project — from raw data ingestion and transformation to dashboard design and insight generation.
+To enhance operational efficiency and provide actionable insights into emergency room performance, we need to create a Hospital Emergency Room Analysis Dashboard in Power BI. This solution will enable stakeholders to track, analyze, and make data-driven decisions regarding patient management and service optimization.
 
 ---
 
