@@ -2,59 +2,33 @@
 
 A professional log of the development process, milestones, and challenges encountered during the creation of the Hospital ER Dashboard.
 
-## Phase 1: Data Preparation & Initial Cleaning
-- **Raw Data acquisition**: Started with a CSV file containing 9,216 rows and 11 columns of raw Hospital ER data.
-- **Format Conversion**: Converted the source CSV to XLSX for better compatibility and handling within the Power BI ecosystem.
-- **Power Query Optimization**:
-    - Identified null values in the `Patient satisfaction score` field; validated that the remaining data (99%+) is complete and error-free.
-    - **Feature Engineering**: Created a custom column for Patient Full Name by merging `First Name` and `Last Name`.
-    - **Data Standardization**: Standardized gender labels from abbreviations (M, F, NC) to full descriptive terms (Male, Female, Not Confirmed).
+## Phase 1: Data Preparation & Dimensional Modeling
+- **Initial Ingestion**: Acquired raw ER data (CSV, 9,216 rows, 11 columns) and converted to XLSX for enhanced compatibility.
+- **Power Query ETL**:
+    - Identified and handled null values in `Patient satisfaction score`.
+    - **Feature Engineering**: Generated `Patient Full Name` by merging first and last names.
+    - **Data Standardization**: Replaced gender abbreviations (M/F/NC) with full descriptive labels.
+- **Dimensional Modeling**: 
+    - Created a dedicated `Date Table` (DAX) with `Month Name` and `Year` columns.
+    - Established relationships using the Date field as the primary connecting entity.
 
-## Phase 2: Data Modeling
-- **Dimensional Modeling**:
-    - Created a dedicated `Date Table` using the `CALENDAR` function to support time-intelligence features.
-    - Expanded the `Date Table` with `Month Name` and `Year` columns for enhanced slicing capabilities.
-- **Relational Mapping**: Established a one-to-many relationship between the `Date Table` and the `Hospital ER_Data` table using the Date field as the connecting entity.
+## Phase 2: Dashboard Development & Performance Optimization
+- **Layout & Visual Hierarchy**: Established the 'Monthly Overview' framework using structured containers and KPI cards.
+- **Timestamp Mismatch Troubleshooting**:
+    - *Challenge*: Discovered that exact timestamps in the admission field prevented successful relationship mapping with the Date Table.
+    - *Resolution*: Normalized `Patient Admission Date` to a date-only format, enabling accurate cross-filtering.
+- **KPI Implementation**:
+    - Developed measures for **Patient Volume**, **Average Wait Time**, **Satisfaction Score**, and **Referral Volume**.
+    - Implemented a display override measure to prevent large numbers from being abbreviated (e.g., ensuring 9,217 is fully visible).
+- **Advanced Logic & Visuals**:
+    - **Calculated Columns**: Implemented `Admission Status` (Admitted/Not Admitted) and `Wait Time Status` (Target Achieved/Missed based on 30min threshold).
+    - **Comparative Analytics**: Integrated donut charts for gender and wait time performance, and bar charts for racial demographics and department referrals.
 
-## Phase 3: Dashboard Development & Troubleshooting
-- **Layout Design**: Commenced work on the 'Monthly Overview' page, establishing the visual hierarchy with basic shapes and key patient metric cards.
-- **Timestamp Mismatch Resolution**: 
-    - *Action*: Normalized the `Patient Admission Date` in the ER table by creating a new `Admission Date (Date Only)` column (removing precise timestamps).
-    - *Result*: Successfully established the relationship with the `Date Table`, enabling accurate filtering across all visuals.
-- **KPI Visual Development**:
-    - **Patient Volume**: Added a primary metric card for "Total Patients" with an area chart visualizing daily spikes.
-    - **Display Optimization**: Implemented a specialized display measure to ensure total counts (e.g., 9217) are shown clearly without scientific abbreviations like "9K".
-    - **Average Wait Time**: Integrated the secondary KPI card for "Average Wait Time," mirroring the design of the patient volume card for consistency.
-- **Expanded KPI Portfolio**:
-    - **Average Satisfaction**: Developed a new measure to track the daily average patient satisfaction score.
-    - **Referral Volume**: Implemented a measure to count the total number of patients referred to other departments.
-- **Data Enrichment (DAX)**:
-    - **Admission Status Flag**: Created a calculated column (`Admission Status`) using logic: IF admission flag is true then "Admitted" else "Not Admitted".
-- **Visual Analytics Expansion**:
-    - Integrated a Matrix Chart and Bar Chart to visualize the distribution of Admitted vs. Not Admitted patients.
-- **Interactivity & UI**:
-    - Formatted and implemented slicers for Month and Year.
-    - Implemented layout containers (white rectangles) to group metrics and improve the dashboard's visual flow.
-
-- **Advanced Visualization & Metrics**:
-    - **Patient Referral Analysis**: Integrated a bar chart to visualize the distribution of patient referrals across different departments.
-    - **Wait Time Performance**: 
-        - **Feature Engineering**: Created a new calculated column `Wait Time Status` with a 30-minute performance threshold (Trigger: <30 min = "Target Achieved", >30 min = "Target Missed").
-        - **Visual Representation**: Implemented a Donut Chart to track the percentage of patients meeting the wait time target.
-    - **Demographic Insights**:
-        - **Gender Distribution**: Added a Donut Chart visualizing the gender breakdown of the patient population.
-        - **Racial Demographics**: Integrated a Bar Chart to analyze the distribution of patients by race.
-- **UI/UX Polishing**:
-    - Refined the layout and formatting of the 'Monthly Overview' page.
-    - Optimized color palettes for consistent demographic visualization.
-
-- [x] Finalized the 'Monthly Overview' and 'Patient Demographics' pages.
-- [x] Designed and implemented 'Time & Referral Analysis' (Page 3).
-- [x] Developed 'Satisfaction & Performance' (Page 4) featuring key takeaways and performance analysis.
-- [x] Integrated cross-page navigation and interactive filtering across the entire dashboard suite.
-
-## Phase 5: Finalization & Documentation
-- [x] Captured high-resolution dashboard previews for all 4 pages.
-- [x] Updated project documentation with detailed KPI insights and business impact.
-- [ ] Final project review and deployment.
-
+## Phase 3: Finalization & Strategic Insights
+- **Full Dashboard Suite**: Finalized all 4 core pages (Overview, Demographics, Time/Referral, and Performance).
+- **Interactivity**: Integrated cross-page navigation, dynamic slicers, and interactive tooltips.
+- **Deployment & Review**:
+    - [x] Captured high-resolution previews for documentation.
+    - [x] Documented KPI insights and business impact.
+    - [x] Completed final project review and structure optimization.
+    - [x] Synchronized all development logs into the project timeline.
