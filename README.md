@@ -139,19 +139,19 @@ hospital-er-dashboard/
 > *Dashboard previews will be added here as each page is completed.*
 
 ### Page 1: Monthly Overview
-![Monthly Overview](Screenshots/Dashboard_Page_01.png)
+![Monthly Overview](Assets/Dashboard_Page_01.png)
 *Detailed View of high-level KPIs (Total Patients, Average Wait Time, Satisfaction Score) with monthly trend analysis and interactive year/month slicers.*
 
 ### Page 2: Patient Demographics
-![Patient Demographics](Screenshots/Dashboard_Page_02.png)
+![Patient Demographics](Assets/Dashboard_Page_02.png)
 *Insightful breakdown of patient demographics by age group, gender, and race, enabling targeted healthcare service improvements.*
 
 ### Page 3: Time & Referral Analysis
-![Time & Referral](Screenshots/Dashboard_Page_03.png)
+![Time & Referral](Assets/Dashboard_Page_03.png)
 *Detailed analysis of patient wait time patterns by hour and day, coupled with departmental referral tracking for load balancing.*
 
 ### Page 4: Satisfaction & Performance
-![Satisfaction](Screenshots/Dashboard_Page_04.png)
+![Satisfaction](Assets/Dashboard_Page_04.png)
 *A deep dive into patient satisfaction benchmarks and key takeaways, correlating satisfaction levels with wait times and operational performance.*
 
 ---
