@@ -1,4 +1,4 @@
-# 🏥 Hospital Emergency Room Dashboard — Project Documentation
+# Hospital Emergency Room Dashboard — Project Documentation
 
 **Author:** Khushi  
 **Tool:** Microsoft Power BI  
@@ -79,7 +79,7 @@ The dashboard tracks and visualizes the following core KPIs:
 
 ---
 
-## 📑 Dashboard Structure (4 Pages)
+## Dashboard Structure (4 Pages)
 
 I am building this dashboard across **4 distinct pages**, each designed to answer specific analytical questions:
 
@@ -94,29 +94,29 @@ I am building this dashboard across **4 distinct pages**, each designed to answe
 
 ---
 
-## 🔍 Insights & Business Problems Solved
+## Insights & Business Problems Solved
 
-### ✅ Staffing Optimization
+### Staffing Optimization
 By analyzing patient volume trends across days and hours, the dashboard reveals **when the ER is busiest** — enabling management to schedule adequate staff during peak periods and reduce overstaffing during lulls.
 
-### ✅ Wait Time Reduction
+### Wait Time Reduction
 Tracking average wait times daily exposes **systemic delays**. If wait times spike consistently on certain days or during certain hours, it signals a need for process improvement, additional triage staff, or resource reallocation.
 
-### ✅ Patient Experience Improvement
+### Patient Experience Improvement
 The satisfaction score trend line acts as an **early warning system**. A sudden dip in scores, when correlated with wait time spikes or high patient volumes, reveals the root cause — enabling targeted interventions before patient complaints escalate.
 
-### ✅ Departmental Load Balancing
+### Departmental Load Balancing
 Referral data highlights which departments receive the most ER patients. If one department (e.g., Orthopedics or Cardiology) is consistently overloaded while others are underutilized, the hospital can **redistribute resources** or adjust referral protocols.
 
-### ✅ Demographic-Driven Decisions
+### Demographic-Driven Decisions
 Understanding the **age, gender, and racial composition** of ER visitors helps hospitals tailor their services — whether it's adding pediatric resources, addressing health disparities, or designing community outreach programs for underserved groups.
 
-### ✅ Proactive vs. Reactive Management
+### Proactive vs. Reactive Management
 Instead of reacting to crises after they happen, the dashboard puts **trends and patterns front and center** — empowering leadership to anticipate problems and act before they impact patients.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -127,7 +127,7 @@ Instead of reacting to crises after they happen, the dashboard puts **trends and
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 hospital-er-dashboard/
@@ -150,7 +150,7 @@ hospital-er-dashboard/
 
 ---
 
-## 🚀 What's Next
+## What's Next
 
 - [x] Complete data cleaning and transformation in Power Query
 - [x] Build DAX measures for all core KPIs
@@ -164,11 +164,11 @@ hospital-er-dashboard/
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Khushi**  
 *Data Analytics Enthusiast*  
-📧 Feel free to reach out for collaboration or feedback!
+Feel free to reach out for collaboration or feedback!
 
 ---
 
