@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏥 Hospital Emergency Room Dashboard
+# Hospital Emergency Room Dashboard
 
 ### A Power BI Analytics Solution for ER Performance Optimization
 
@@ -12,53 +12,53 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [About the Project](#-about-the-project)
-- [Problem Statement](#-problem-statement)
-- [Key Features](#-key-features)
-- [Dashboard Pages](#-dashboard-pages)
-- [KPIs Tracked](#-kpis-tracked)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Screenshots](#-screenshots)
-- [Insights & Impact](#-insights--impact)
-- [Author](#-author)
+- [About the Project](#about-the-project)
+- [Problem Statement](#problem-statement)
+- [Key Features](#key-features)
+- [Dashboard Pages](#dashboard-pages)
+- [KPIs Tracked](#kpis-tracked)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
+- [Insights & Impact](#insights--impact)
+- [Author](#author)
 
 ---
 
-## 🔍 About the Project
+## About the Project
 
 To enhance operational efficiency and provide actionable insights into emergency room performance, we need to create a Hospital Emergency Room Analysis Dashboard in Power BI. This solution will enable stakeholders to track, analyze, and make data-driven decisions regarding patient management and service optimization.
 
 ---
 
-## ❗ Problem Statement
+## Problem Statement
 
 Emergency departments face critical operational challenges:
 
-- 📈 **Unpredictable patient surges** causing resource strain
-- ⏱️ **Inconsistent wait times** affecting patient outcomes
-- 📉 **Declining satisfaction scores** going undetected
-- 🔄 **Imbalanced departmental referrals** creating bottlenecks
-- 🔍 **No centralized analytics** for proactive decision-making
+- **Unpredictable patient surges** causing resource strain
+- **Inconsistent wait times** affecting patient outcomes
+- **Declining satisfaction scores** going undetected
+- **Imbalanced departmental referrals** creating bottlenecks
+- **No centralized analytics** for proactive decision-making
 
 This dashboard addresses all of the above with a single, unified analytics solution.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 📊 **4 Interactive Dashboard Pages** — each focused on a specific analytical dimension
-- 📈 **Real-time KPI Tracking** — with sparkline trends and dynamic cards
-- 🎛️ **Interactive Filters & Slicers** — drill down by date, department, demographics
-- 🔗 **Cross-page Navigation** — seamless exploration across views
-- 🎨 **Professional Design** — clean, modern, healthcare-themed UI
+- **4 Interactive Dashboard Pages** — each focused on a specific analytical dimension
+- **Real-time KPI Tracking** — with sparkline trends and dynamic cards
+- **Interactive Filters & Slicers** — drill down by date, department, demographics
+- **Cross-page Navigation** — seamless exploration across views
+- **Professional Design** — clean, modern, healthcare-themed UI
 
 ---
 
-## 📑 Dashboard Pages
+## Dashboard Pages
 
 | # | Page | Description |
 |---|------|-------------|
@@ -69,7 +69,7 @@ This dashboard addresses all of the above with a single, unified analytics solut
 
 ---
 
-## 📏 KPIs Tracked
+## KPIs Tracked
 
 | KPI | Description |
 |-----|-------------|
@@ -80,7 +80,7 @@ This dashboard addresses all of the above with a single, unified analytics solut
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Usage |
 |------------|-------|
@@ -92,23 +92,23 @@ This dashboard addresses all of the above with a single, unified analytics solut
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 hospital-er-dashboard/
 │
-├── 📁 Assets/                  # Icons, backgrounds, and images used in dashboards
-├── 📁 Dashboard/               # Power BI (.pbix) files
-├── 📁 Data/
-│   ├── 📁 Raw/                 # Original, unmodified datasets
-│   └── 📁 Cleaned/             # Processed and transformed data
-├── 📁 Documentation/
+├── Assets/                  # Icons, backgrounds, and images used in dashboards
+├── Dashboard/               # Power BI (.pbix) files
+├── Data/
+│   ├── Raw/                 # Original, unmodified datasets
+│   └── Cleaned/             # Processed and transformed data
+├── Documentation/
 │   ├── Project_Documentation.md
 │   └── Terminology.pdf
-├── 📁 Screenshots/             # Dashboard preview images
-├── 📁 Scripts/
-│   ├── 📁 DAX/                 # DAX measures and calculations
-│   └── 📁 PowerQuery/          # Power Query (M) transformation scripts
+├── Screenshots/             # Dashboard preview images
+├── Scripts/
+│   ├── DAX/                 # DAX measures and calculations
+│   └── PowerQuery/          # Power Query (M) transformation scripts
 │
 ├── .gitignore
 ├── CHANGELOG.md
@@ -119,7 +119,7 @@ hospital-er-dashboard/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (latest version)
@@ -134,7 +134,7 @@ hospital-er-dashboard/
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > *Dashboard previews will be added here as each page is completed.*
 
@@ -156,7 +156,7 @@ hospital-er-dashboard/
 
 ---
 
-## 💡 Insights & Impact
+## Insights & Impact
 
 | Insight Area | Business Impact |
 |-------------|-----------------|
@@ -168,17 +168,17 @@ hospital-er-dashboard/
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Khushi**  
 *Data Analytics Enthusiast | Power BI Developer*
 
-⭐ If you found this project useful, consider giving it a star!
+If you found this project useful, consider giving it a star!
 
 ---
 
 <div align="center">
 
-*Built with 💙 and data*
+*Built with data*
 
 </div>
