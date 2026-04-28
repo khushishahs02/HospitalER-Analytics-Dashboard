@@ -1,11 +1,12 @@
-# 🏥 Hospital Emergency Room Dashboard: Business Requirements
+# Hospital Emergency Room Dashboard: Business Requirements
 
-## 🎯 Project Objective
+
+## Project Objective
 To enhance operational efficiency and provide actionable insights into emergency room performance, we need to create a Hospital Emergency Room Analysis Dashboard in Power BI. This solution will enable stakeholders to track, analyze, and make data-driven decisions regarding patient management and service optimization.
 
 ---
 
-## 📈 KPI Requirements
+## KPI Requirements
 
 ### 1. Number of Patients
 - **Definition**: Measure the total number of patients visiting the ER daily.
@@ -25,7 +26,7 @@ To enhance operational efficiency and provide actionable insights into emergency
 
 ---
 
-## 📑 Dashboard Deliverables
+## Dashboard Deliverables
 
 ### Dashboard 1: Monthly View
 - **Objective**: Monitor key metrics and trends on a month-by-month basis to identify patterns and areas for improvement.
