@@ -4,10 +4,6 @@
 
 ### A Power BI Analytics Solution for ER Performance Optimization
 
-[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
-[![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)]()
-[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
-
 </div>
 
 ---
@@ -24,7 +20,6 @@
 - [Getting Started](#getting-started)
 - [Screenshots](#screenshots)
 - [Insights & Impact](#insights--impact)
-- [Author](#author)
 
 ---
 
@@ -166,19 +161,4 @@ hospital-er-dashboard/
 | **Referral Distribution** | Balanced departmental workloads |
 | **Demographic Analysis** | Enabled targeted healthcare services |
 
----
-
-## Author
-
-**Khushi**  
-*Data Analytics Enthusiast | Power BI Developer*
-
-If you found this project useful, consider giving it a star!
-
----
-
-<div align="center">
-
-*Built with data*
-
-</div>
+--
