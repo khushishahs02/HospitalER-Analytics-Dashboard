@@ -23,7 +23,7 @@
 ---
 
 ## 1. Introduction
-This report presents the Hospital Emergency Room (ER) Analytics Dashboard developed using Power BI, aimed at providing comprehensive insights into emergency department operations and patient flow. The dashboard showcases key operational metrics based on a robust dataset of **9,216 patient visits**, including total patient volume (9,216), hospital admission rate (50.0%), average patient age (39.9 years), average wait time (35.3 minutes), average patient satisfaction score (4.99 / 10), and total departmental referrals (3,816).
+This report presents the Hospital Emergency Room (ER) Analytics Dashboard developed using Power BI, aimed at providing comprehensive insights into emergency department operations and patient flow. The dashboard showcases key operational metrics based on a dataset of **9,216 patient visits**, including total patient volume (9,216), hospital admission rate (50.0%), average patient age (39.9 years), average wait time (35.3 minutes), average patient satisfaction score (4.99 / 10), and total departmental referrals (3,816).
 
 ---
 
@@ -43,7 +43,7 @@ The development process began with the ingestion of raw ER operational records f
 ---
 
 ## 5. Data Preprocessing
-I meticulously prepared the raw hospital data for analysis using Power Query (M language) and DAX. This involved handling null values in patient satisfaction scores, creating calculated columns for date normalization (`Admission Date (Date Only)`), and generating composite fields such as `Patient Full Name`. Furthermore, I engineered advanced operational categories, including `Admission Status` (Admitted vs. Not Admitted) and `Wait Time Status` (Target Achieved [< 30 min] vs. Target Missed [> 30 min]). By diligently addressing these data structure and formatting needs, I established a solid, reliable foundation for extracting meaningful clinical and operational insights.
+I prepared the raw hospital data for analysis using Power Query (M language) and DAX. This involved handling null values in patient satisfaction scores, creating calculated columns for date normalization (`Admission Date (Date Only)`), and generating composite fields such as `Patient Full Name`. Furthermore, I engineered advanced operational categories, including `Admission Status` (Admitted vs. Not Admitted) and `Wait Time Status` (Target Achieved [< 30 min] vs. Target Missed [> 30 min]). By diligently addressing these data structure and formatting needs, I established a solid, reliable foundation for extracting meaningful clinical and operational insights.
 
 ---
 
