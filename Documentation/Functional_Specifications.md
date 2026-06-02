@@ -1,19 +1,8 @@
-# Hospital Emergency Room Dashboard — Project Documentation
-
-**Author:** Khushi  
-**Tool:** Microsoft Power BI  
-**Date:** April 2026  
-**Status:** In Progress
-
----
-
 ## Project Overview
 
 This project is a **Hospital Emergency Room (ER) Analysis Dashboard** that I am building using **Microsoft Power BI**. The goal is to transform raw ER operational data into a powerful, interactive visual analytics solution that helps hospital administrators, department heads, and healthcare decision-makers **track, analyze, and optimize** emergency room performance.
 
 Emergency rooms are the frontline of any hospital, they operate under immense pressure with unpredictable patient volumes, critical wait times, and the constant need to balance quality of care with operational efficiency. This dashboard is designed to bring **clarity to that chaos** by surfacing key performance indicators (KPIs) and trends that drive smarter, data-driven decisions.
-
----
 
 ## Problem Statement
 
@@ -27,10 +16,6 @@ Hospital emergency departments face several recurring operational challenges:
 
 Without a centralized analytics solution, hospital management relies on fragmented reports and gut instinct leading to reactive rather than proactive decision-making.
 
-**This dashboard solves that.**
-
----
-
 ## Objective
 
 To design and develop an interactive, multi-page Power BI dashboard that enables stakeholders to:
@@ -40,8 +25,6 @@ To design and develop an interactive, multi-page Power BI dashboard that enables
 3. **Drill down into demographics** (age, gender, race) to uncover disparities or targeted needs.
 4. **Analyze departmental referral loads** to optimize inter-department resource allocation.
 5. **Make data-driven decisions** that improve patient care, reduce wait times, and enhance overall operational efficiency.
-
----
 
 ## Key Performance Indicators (KPIs)
 
@@ -77,27 +60,11 @@ The dashboard tracks and visualizes the following core KPIs:
 - Visualized using a **Donut Chart** to show the proportion of cases meeting clinical wait time standards.
 - **Insight:** Provides a clear, high-level view of hospital responsiveness and operational efficiency against set targets.
 
----
-
-## Dashboard Structure (4 Pages)
-
-I am building this dashboard across **4 distinct pages**, each designed to answer specific analytical questions:
-
-| Page | Title | Focus Area |
-|------|-------|------------|
-| 1 | **Monthly Overview** | High-level KPIs, patient volume trends, and monthly snapshot of ER performance |
-| 2 | **Patient Demographics** | Breakdown by age group, gender, and race — identifying who visits the ER and when |
-| 3 | **Time & Referral Analysis** | Heatmaps and trends for wait times by hour/day, plus departmental referral patterns |
-| 4 | **Satisfaction & Performance** | Deep dive into satisfaction trends, correlation with wait times, and performance benchmarks |
-
-> *Detailed visuals and preview screenshots for each page will be added as the dashboards are completed.*
-
----
 
 ## Insights & Business Problems Solved
 
 ### Staffing Optimization
-By analyzing patient volume trends across days and hours, the dashboard reveals **when the ER is busiest** — enabling management to schedule adequate staff during peak periods and reduce overstaffing during lulls.
+By analyzing patient volume trends across days and hours, the dashboard reveals **when the ER is busiest** - enabling management to schedule adequate staff during peak periods and reduce overstaffing during lulls.
 
 ### Wait Time Reduction
 Tracking average wait times daily exposes **systemic delays**. If wait times spike consistently on certain days or during certain hours, it signals a need for process improvement, additional triage staff, or resource reallocation.
@@ -113,63 +80,3 @@ Understanding the **age, gender, and racial composition** of ER visitors helps h
 
 ### Proactive vs. Reactive Management
 Instead of reacting to crises after they happen, the dashboard puts **trends and patterns front and center** — empowering leadership to anticipate problems and act before they impact patients.
-
----
-
-## Tools & Technologies
-
-| Tool | Purpose |
-|------|---------|
-| **Microsoft Power BI** | Dashboard design, data modeling, DAX calculations, and interactive visualizations |
-| **DAX (Data Analysis Expressions)** | Custom measures and calculated columns for KPIs |
-| **Power Query (M Language)** | Data cleaning, transformation, and loading (ETL) |
-| **Excel / CSV** | Source data format |
-
----
-
-## Project Structure
-
-```
-hospital-er-dashboard/
-├── Assets/                  # Images, icons, and schema diagrams
-├── Dashboard/               # Power BI report files (.pbix)
-├── Data/                    # Source data
-│   ├── Raw/                 # Original, untouched data files
-│   └── Cleaned/             # Processed data (currently moved to Raw for modeling)
-├── Documentation/           # Project logs and references
-│   ├── Project_Documentation.md
-│   ├── PROJECT_TIMELINE.md  # Detailed project progress summary
-│   └── Terminology.pdf
-├── Scripts/                 # Code and calculation scripts
-│   ├── DAX/                 # Power BI measures and table expressions
-│   └── PowerQuery/          # M scripts for data transformation
-├── .gitignore
-├── README.md
-└── LICENSE, etc.
-```
-
----
-
-## What's Next
-
-- [x] Complete data cleaning and transformation in Power Query
-- [x] Build DAX measures for all core KPIs
-- [x] Design and develop Monthly Overview page (Page 1)
-- [x] Design Patient Demographics page (Page 2)
-- [ ] Design Time & Referral Analysis page (Page 3)
-- [ ] Design Satisfaction & Performance page (Page 4)
-- [x] Add interactivity (slicers, drill-throughs, cross-filtering)
-- [ ] Capture dashboard previews and add them to the documentation
-- [ ] Final review and publish
-
----
-
-## Contact
-
-**Khushi**  
-*Data Analytics Enthusiast*  
-Feel free to reach out for collaboration or feedback!
-
----
-
-> *This documentation is a living document and will be updated as the project progresses.*
